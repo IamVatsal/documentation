@@ -8,12 +8,12 @@ consumption, and so on.
 
 - Python environment v3.12.2
   
-    !!! Note
+> **Note:**
         This could be accomplished using [Miniconda](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-python.html) and creating a [Python 3.12.2 env](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-python.html)
 
 - Python packages listed in [performance-tools/benchmark-scripts/requirements.txt](https://github.com/intel-retail/performance-tools/blob/main/benchmark-scripts/requirements.txt)
 
-    !!! Note
+> **Note:**
         Use `pip install -r requirements.txt`
 
 - Docker
@@ -22,7 +22,7 @@ consumption, and so on.
 - Git
 - Code from [Retail Use Cases Repo](https://github.com/intel-retail/retail-use-cases) and its submodule [Performance Tools Repo](https://github.com/intel-retail/performance-tools)
 
-    !!! Note
+> **Note:**
         To install the submodule, run `make update-submodules` from the root of the retail-use-cases repo.
 
 # Benchmark a CV Pipeline
@@ -61,7 +61,7 @@ where the parameters:
 - `init_duration` is the initial duration period in second before pipeline performance metrics are taken
 
 
-    !!! Note
+> **Note:**
         It is recommended to set --target_fps to a value lesser than your target FPS to account for real world variances in hardware readings.
 
 Stream density with single container
